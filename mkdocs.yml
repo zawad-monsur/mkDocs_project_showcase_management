@@ -1,1 +1,11 @@
 site_name: My Docs
+site_url: https://projectshowcase.com
+
+nav:
+    - Introduction: introduction.md
+    - Overall Description: overall_description.md
+    - External Interface Requirements: external_interface_requirements.md
+    - System Features: system_features.md
+    - Other Nonfunctional Requirements: other_nonfuntional_requirements.md
+
+theme: readthedocs
