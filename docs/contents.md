@@ -1,5 +1,5 @@
 ### Table of contents
-
+** Table of contents ** <br>
 ** Revision History **
 
 <dl>
@@ -45,6 +45,8 @@
     <dt>Appendix B: Analysis Models</dt>
     <dt>Appendix C: To Be Determined List</dt>
 </dl>
+
+## Revision History
 
 | Name  | Date  | Reason For Changes  | version  |
 | ----- | ----  |-------------------- | -------- |

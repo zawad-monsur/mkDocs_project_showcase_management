@@ -1,10 +1,16 @@
 # System Features
 
-###### Login/Sign UP and Dashboard
+###### Login/Signup and Dashboard
 
 <dl>
     <dt>Description and Priority:</dt>
     Students,faculty and organizers have different login sections and authentication checks from the database and both have different dashboards. This is the high priority feature of this project.
+</dl>
+
+<dl>
+    <dt>Stimulus/Response Sequences:</dt>
+
+    Student faculty and organizers must login by using there’re id and password. After login every side has a different dashboard and there, they can upload projects, observe projects and organizers add judges and create notices..
 </dl>
 
 <dl>

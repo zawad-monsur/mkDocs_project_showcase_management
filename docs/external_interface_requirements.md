@@ -56,11 +56,3 @@
 ## Communication Interfaces
 
 This project supports all types of web browsers. We are using simple electronic forms for the Project creation and evaluation, room booking etc.
-
-## System Features
-
-Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here.
-
-## References
-
-List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
