@@ -2,19 +2,27 @@
 
 ## Performance Requirements
 
-Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system or a single subsystem
+The steps involved to perform the implementation of the project showcase database are as listed below.
+
+#### ER Diagram
+
+The E-R Diagram constitutes a technique for representing the logical structure of a database in a pictorial manner. This analysis is then used to organize data as a relation and finally obtaining a relation database.
+
+- **ENTITIES: ** Which specify distinct real-world items in an application. 
+- ** PROPERTIES/ATTRIBUTES: ** Which specify properties of an entity and  relationship.
+- ** RELATIONSHIPS: ** Which connect entities and represent meaningful dependencies between them.
+
+![er_diagram](https://cdn.fbsbx.com/v/t59.2708-21/287210355_555547689674155_3536053461498877446_n.gif?_nc_cat=100&ccb=1-7&_nc_sid=041f46&_nc_ohc=BvNS5xvtIfYAX90nsUp&_nc_ht=cdn.fbsbx.com&oh=03_AVI9YB6RjbPjoOSNnkDJ1NDy-60Gr76Bppm4Wfx4FpS4NA&oe=633042BC)
 
 ## Security Requirements
 
-Describe any standards or typographical conventions that were followed when writing this SRS, such as fonts or highlighting that have special significance. For example, state whether priorities  for higher-level requirements are assumed to be inherited by detailed requirements, or whether every requirement statement is to have its own priority
+Security systems need database storage just like many other applications. However, the special requirements of the security market mean that vendors must choose their database partner carefully.
 
 ## Software Quality Attributes
 
-Describe any standards or typographical conventions that were followed when writing this SRS, such as fonts or highlighting that have special significance. For example, state whether priorities  for higher-level requirements are assumed to be inherited by detailed requirements, or whether every requirement statement is to have its own priority
+- ** AVAILABILITY : ** The students can upload there project document file and faculty can monitor the project.
+- ** CORRECTNESS : ** Judges should evaluate every team's project and provide their marks based on every project.
 
-## Other Requirements
-Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here.
+- ** MAINTAINABILITY : ** Organizers should collect the mark from judges and select the winning team based on their marks.
 
-## References
-
-List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
+- ** USABILITY: ** The faculty members should monitor the project and give proper guide-lines.

@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# Software Requirements Specification 
+** for **
+# Project Showcase Management
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+### Version 1.0 approved
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### Prepared by
 
-## Project layout
+Debopom Sutradha(011201046)   
+K.M. Zawad Monsur (011181225)                                                      
+Sultan Mahmud Alif (011191155)
+Millat Hossain (011191121)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+** Date: 24/09/2022 **

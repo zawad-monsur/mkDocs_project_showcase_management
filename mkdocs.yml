@@ -2,10 +2,14 @@ site_name: My Docs
 site_url: https://projectshowcase.com
 
 nav:
+    - Index: index.md
+    - Table of Contents: contents.md
     - Introduction: introduction.md
     - Overall Description: overall_description.md
     - External Interface Requirements: external_interface_requirements.md
     - System Features: system_features.md
-    - Other Nonfunctional Requirements: other_nonfuntional_requirements.md
+    - Other Nonfunctional Requirements: other_nonfunctional_requirements.md
+    - Other Requirements: other_requirements.md
+    - Black Box Testing: blackbox_testing.md
 
 theme: readthedocs
