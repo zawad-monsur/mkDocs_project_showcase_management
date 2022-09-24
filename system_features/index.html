@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://projectshowcase.com/system_features/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>System Features - My Docs</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "System Features";
+        var mkdocs_page_input_path = "system_features.md";
+        var mkdocs_page_url = "/system_features/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> My Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Index</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../contents/">Table of Contents</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../introduction/">Introduction</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../overall_description/">Overall Description</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../external_interface_requirements/">External Interface Requirements</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">System Features</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#loginsignup-and-dashboard">Login/Signup and Dashboard</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#create-a-project">Create a Project</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project-evaluation">Project Evaluation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notice-board">Notice Board</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#create-team-team-enrollment">Create team &amp; Team Enrollment</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#submit-project-add-project-updates">Submit project &amp; Add project updates</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project-search">Project Search</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../other_nonfunctional_requirements/">Other Nonfunctional Requirements</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../other_requirements/">Other Requirements</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../blackbox_testing/">Black Box Testing</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">My Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>System Features</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="system-features">System Features</h1>
+<h6 id="loginsignup-and-dashboard">Login/Signup and Dashboard</h6>
+<dl>
+    <dt>Description and Priority:</dt>
+    Students,faculty and organizers have different login sections and authentication checks from the database and both have different dashboards. This is the high priority feature of this project.
+</dl>
+
+<dl>
+    <dt>Stimulus/Response Sequences:</dt>
+
+    Student faculty and organizers must login by using there’re id and password. After login every side has a different dashboard and there, they can upload projects, observe projects and organizers add judges and create notices..
+</dl>
+
+<dl>
+    <dt>Functional Requirements:</dt>
+    Students, faculty and organizers have different login requirements like id and password to access this software. If they failed to login then they have to sign up first and get an authentication check from the organization.
+</dl>
+<pre><code>REQ-1: Students should have to Login    
+REQ-2:Organizers assign the judges
+REQ-3:Faculty should have unique id and password
+</code></pre>
+<h6 id="create-a-project">Create a Project</h6>
+<p>Students have to create their own project after team formation . They have to put their details       and Project ideas with a short description. Without creating a project there would be no project record against the team.</p>
+<dl>
+    <dt>Stimulus/Response Sequences:</dt>
+
+    Students have to perform an add project and create a project with the form’s requirements. After creating the project they will be able to see the project idea feedback complimented by the course teacher.
+</dl>
+
+<dl>
+    <dt>Functional Requirements:</dt>
+    As a user only student can create a project according to course category with information like team members id, project title, project idea,project description and other stuff with specific format that requires to be stored in the database as the format.
+</dl>
+<pre><code>REQ-1: Students should have to create profile
+REQ-2:Students have to create team must.
+REQ-3: Student have to maintain form’s Format
+</code></pre>
+<h6 id="project-evaluation">Project Evaluation</h6>
+<p>After students submit their project, judges might evaluate every project based on their project performance and judges might give marks to every portion of the project.After evaluate judges upload their marks.</p>
+<dl>
+    <dt>Stimulus/Response Sequences:</dt>
+
+    Project evaluation where judges can see all the projects individually and evaluate projects and also assign marks for the project..
+</dl>
+
+<dl>
+    <dt>Functional Requirements:</dt>
+    After students submit their project judges might evaluate every project based on their project performance and judges might give marks to every portion of the project.After evaluate judges upload their marks .If the judges can't properly evaluate update marks then every project marks upload in the marks history database.
+</dl>
+<pre><code>REQ-1: Views student projects file
+REQ-2: Access to see every portion of project
+</code></pre>
+<h6 id="notice-board">Notice Board</h6>
+<p>Organizers can upload the notice and  students and faculty can view the notice from the notice board.</p>
+<dl>
+    <dt>Stimulus/Response Sequences:</dt>
+
+    When organizers upload a notice, students and faculty can view the notice.
+</dl>
+
+<dl>
+    <dt>Functional Requirements:</dt>
+
+    After upload notice from organizers the can edit delete and upload the notice
+</dl>
+<pre><code>REQ-1: Student view notice
+REQ-2:  Organizers have access to edit delete of notice.
+</code></pre>
+<h6 id="create-team-team-enrollment">Create team &amp; Team Enrollment</h6>
+<p>Students have to create their own project after team formation . They have to put their details       and Project ideas with a short description. Without creating a project there would be no project record against the team.</p>
+<dl>
+    <dt>Stimulus/Response Sequences:</dt>
+
+    Students have to perform an add project and create a project with the form’s requirements. After creating the project they will be able to see the project idea feedback complimented by the course teacher.
+</dl>
+
+<dl>
+    <dt>Functional Requirements:</dt>
+    As a user only student can create a project according to course category with information like team members id, project title, project idea,project description and other stuff with specific format that requires to be stored in the database as the format.
+</dl>
+<pre><code>REQ-1: Students should have to create profile
+REQ-2:Students have to create team must.
+REQ-3: Student have to maintain form’s Format
+</code></pre>
+<h6 id="submit-project-add-project-updates">Submit project &amp; Add project updates</h6>
+<p>After creating teams, students submit their projects and faculty will monitor and students can add project updates every sprint.</p>
+<dl>
+    <dt>Stimulus/Response Sequences:</dt>
+
+    students upload project and sumit then the can add project updates every time.Feculty have access to see the project update
+</dl>
+
+<dl>
+    <dt>Functional Requirements:</dt>
+    After students submit their project, faculty can access the project progress.
+</dl>
+<pre><code>REQ-1: Views student projects file
+REQ-2: Access to see every portion of project
+</code></pre>
+<h6 id="project-search">Project Search</h6>
+<p>Students and faculties can search projects and search result will show the previous projects done before.</p>
+<dl>
+    <dt>Stimulus/Response Sequences:</dt>
+
+    Students upload project and sumit then the can add project updates every time.Feculty have access to see the project update
+</dl>
+
+<dl>
+    <dt>Functional Requirements:</dt>
+    After student search they will get previous history of project if any project have same name then that will may conflict so we use unique project id of every project
+</dl>
+<pre><code>REQ-1: search the previous project
+REQ-2: Access to see history of previous course project
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../external_interface_requirements/" class="btn btn-neutral float-left" title="External Interface Requirements"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../other_nonfunctional_requirements/" class="btn btn-neutral float-right" title="Other Nonfunctional Requirements">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../external_interface_requirements/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../other_nonfunctional_requirements/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
